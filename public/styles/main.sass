@@ -1,10 +1,14 @@
 @import 'bourbon/bourbon'
+@import '../bower_components/Materialize/sass/materialize.scss'
+@import 'para.sass'
 
-#back
-  @include linear-gradient(#1e5799, #2989d8)
+html
+  font-family: $helvetica
 
-#jumbotrone
-  margin: 10px
-  flex-direction: column
-  justify-content: center
-  align-items: center
+h1
+  font-size: 3em
+  font-style: italic
+
+#img1
+  @include filter(blur(3px))
+  @include filter(brightness(60%))
