@@ -1,4 +1,14 @@
 @import 'bourbon/bourbon'
+@import '../bower_components/Materialize/sass/materialize.scss'
+@import 'para.sass'
 
-$main: #1e5799
-$secondary: #d9eeff
+html
+  font-family: $helvetica
+
+h1
+  font-size: 3em
+  font-style: italic
+
+#img1
+  @include filter(blur(3px))
+  @include filter(brightness(60%))
