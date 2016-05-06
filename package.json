@@ -9,6 +9,8 @@
   "author": "sebassdc",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "client_track": "^1.0.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
   }
 }
